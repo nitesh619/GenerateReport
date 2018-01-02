@@ -1,0 +1,18 @@
+Country,City,Gender,Currency,Average Income
+IND,Delhi,M,INR,30000
+IND,Mumbai,M,INR,50000
+IND,Kolkata,M,INR,40000
+IND,Mumbai,F,INR,50000
+IND,Kolkata,F,INR,40000
+Singapore,Kolk,F,SGP,49000
+Singapore,Fukuc,M,SGP,39000
+Singapore,Kolk,M,SGP,29000
+Singapore,Afgd,F,SGP,55422
+Singapore,Mujsi,F,SGP,29000
+SL,Chennai,F,INR,20000
+UK,Kolkata,F,INR,10000
+UK,Dhaka,F,INR,9000
+SL,london,F,GBP,19000
+SL,munich,M,GBP,39000
+UK,notingham,M,GBP,59000
+UK,london,F,GBP,9000
