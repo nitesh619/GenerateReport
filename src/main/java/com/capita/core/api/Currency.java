@@ -1,4 +1,4 @@
-package com.sapient.core.api;
+package com.capita.core.api;
 
 public enum Currency {
   USD(1), INR(66f), GBP(1.74f), SGP(1.34f);

@@ -1,6 +1,6 @@
-package com.sapient.core.parsers;
+package com.capita.core.parsers;
 
-import com.sapient.core.api.Income;
+import com.capita.core.api.Income;
 import java.io.File;
 import java.util.List;
 

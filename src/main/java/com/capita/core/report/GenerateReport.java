@@ -1,4 +1,4 @@
-package com.sapient.core.report;
+package com.capita.core.report;
 
 import static java.util.stream.Collectors.averagingLong;
 import static java.util.stream.Collectors.groupingBy;
@@ -6,7 +6,7 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.mapping;
 import static java.util.stream.Collectors.toMap;
 
-import com.sapient.core.api.Income;
+import com.capita.core.api.Income;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

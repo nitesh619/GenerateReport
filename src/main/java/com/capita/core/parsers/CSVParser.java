@@ -1,14 +1,14 @@
-package com.sapient.core.parsers;
+package com.capita.core.parsers;
 
-import static com.sapient.core.util.ParserConstants.CITY_INDEX;
-import static com.sapient.core.util.ParserConstants.COUNTRY_INDEX;
-import static com.sapient.core.util.ParserConstants.CSV_DELIM;
-import static com.sapient.core.util.ParserConstants.CURRENCY_INDEX;
-import static com.sapient.core.util.ParserConstants.GENDER_INDEX;
-import static com.sapient.core.util.ParserConstants.INCOME_INDEX;
+import static com.capita.core.util.ParserConstants.CITY_INDEX;
+import static com.capita.core.util.ParserConstants.COUNTRY_INDEX;
+import static com.capita.core.util.ParserConstants.CSV_DELIM;
+import static com.capita.core.util.ParserConstants.CURRENCY_INDEX;
+import static com.capita.core.util.ParserConstants.GENDER_INDEX;
+import static com.capita.core.util.ParserConstants.INCOME_INDEX;
 
-import com.sapient.core.api.Currency;
-import com.sapient.core.api.Income;
+import com.capita.core.api.Currency;
+import com.capita.core.api.Income;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;

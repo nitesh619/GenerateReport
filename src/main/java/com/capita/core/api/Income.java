@@ -1,4 +1,4 @@
-package com.sapient.core.api;
+package com.capita.core.api;
 
 
 public class Income {

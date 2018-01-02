@@ -1,4 +1,4 @@
-package com.sapient.core.util;
+package com.capita.core.util;
 
 public class ParserConstants {
 

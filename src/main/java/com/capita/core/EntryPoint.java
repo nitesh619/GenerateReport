@@ -1,8 +1,8 @@
-package com.sapient.core;
+package com.capita.core;
 
-import com.sapient.core.api.Income;
-import com.sapient.core.parsers.CSVParser;
-import com.sapient.core.report.GenerateReport;
+import com.capita.core.api.Income;
+import com.capita.core.parsers.CSVParser;
+import com.capita.core.report.GenerateReport;
 import java.io.File;
 import java.util.List;
 
