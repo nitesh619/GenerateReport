@@ -2,9 +2,13 @@ package com.capita.core.api;
 
 
 public class Income {
+
   private String country;
   private String city;
   private String gender;
+  private Currency currency;
+  private long avgIncome;
+
 
   public Income(final String country, final String city, final String gender,
       final Currency currency,
@@ -15,9 +19,6 @@ public class Income {
     this.currency = currency;
     this.avgIncome = avgIncome;
   }
-
-  private Currency currency;
-  private long avgIncome;
 
   @Override
   public String toString() {

@@ -26,7 +26,6 @@ public class GenerateReport {
           calculateAvgIncomePerCountryByGender(incomeList);
 
       fw.append(joinCountryGenderAvgIncome(avgGenderIncomeByCountry));
-      fw.close();
     } catch (IOException e) {
       System.out.println("Can't generate report: " + e.getMessage());
     }
@@ -64,7 +63,7 @@ public class GenerateReport {
 
   private String joinKeyValues(final Entry<String, Map<String, Double>> countryEntry,
       final Entry<String, Double> genderEntry) {
-    return countryEntry.getKey() + ","+ genderEntry.getKey() + "," + genderEntry.getValue();
+    return countryEntry.getKey() + "," + genderEntry.getKey() + "," + genderEntry.getValue();
   }
   // only sorting
 //  public void sortByCountryGenderIncome(List<Income> incomeList) {

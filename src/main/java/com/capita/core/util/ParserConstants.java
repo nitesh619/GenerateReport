@@ -1,7 +1,6 @@
 package com.capita.core.util;
 
 public class ParserConstants {
-
   public static final int INCOME_INDEX = 4;
   public static final int CURRENCY_INDEX = 3;
   public static final int GENDER_INDEX = 2;

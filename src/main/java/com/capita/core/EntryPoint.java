@@ -17,6 +17,7 @@ public class EntryPoint {
 
     if (file.exists()) {
       CSVParser csvParser = new CSVParser();
+
       incomeList = csvParser.parseIncome(file);
 
       printIncomes();
